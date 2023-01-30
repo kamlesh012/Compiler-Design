@@ -1,21 +1,28 @@
 Declaration Section
 %{
+
 %}
 
+
 Rule Section
+
 %%
+
 %%
+
 Subroutine Section
 
 int yywrap(){
   return 0;
 }
+
 int main(){
   yylex();
   /*
   Your Program Here
   */
 }
+
 
 /* Steps to compile
 
