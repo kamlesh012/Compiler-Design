@@ -13,7 +13,7 @@ Rule Section
 Subroutine Section
 
 int yywrap(){
-  return 0;
+  return 1;
 }
 
 int main(){
