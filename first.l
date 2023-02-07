@@ -11,10 +11,7 @@ yywrap();
 .    {cc++;}		
 %%
 
-int yywrap()
-{
-return 1;
-}
+int yywrap(){return 1;}
 
 int main(){
 
