@@ -13,10 +13,9 @@ int yywrap(){return 1;}
 
 int main(){
 	yylex();
-	
 	if(validint!=0 && !invalid) printf("Integer is Valid\n");
-	  else if(validfloat!=0 && !invalid) printf("Float is Vaild \n");
-	  else printf("Not Valid \n");
+	else if(validfloat!=0 && !invalid) printf("Float is Vaild \n");
+	else printf("Not Valid \n");
 	return 0;
 }
 
