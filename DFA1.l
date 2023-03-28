@@ -1,5 +1,4 @@
 //DFA to accept a string that contains even number of zeroes
-
 %{
 %}
   
